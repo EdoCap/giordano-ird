@@ -3407,7 +3407,7 @@ body.is-touch .poptrox-popup .closer {
 .jumbotron > p {
   padding: 0px 20px;
   margin-bottom: 5px;
-  text-align: center;
+  text-align: right;
 }
 
 .jumbotron > blockquote {
