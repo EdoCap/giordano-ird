@@ -2662,6 +2662,10 @@ input[type="button"]:disabled,
   width: 12em;
 }
 
+#contributi-clickbait {
+  padding-top: 20px;
+}
+
 /* Footer */
 
 #footer .icons {
