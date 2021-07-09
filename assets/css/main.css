@@ -2646,7 +2646,8 @@ input[type="button"]:disabled,
 }
 
 #header h2, #header h3, #header h4, #header h5, #header h6 {
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0;
 }
 
 #header h1 {
@@ -2658,7 +2659,7 @@ input[type="button"]:disabled,
 
 #header .image.avatar {
   margin: 0 0 1em 0;
-  width: 6.25em;
+  width: 12em;
 }
 
 /* Footer */
@@ -3236,6 +3237,11 @@ body.is-touch .poptrox-popup .closer {
     padding-left: 0;
   }
 
+  #header .image.avatar {
+    margin: 0 0 1em 0;
+    width: 10em;
+  }
+
 }
 
 /* ################################# */
@@ -3357,6 +3363,10 @@ body.is-touch .poptrox-popup .closer {
     left: 31px;
   }
 
+  .timeline {
+    margin-bottom: 30px;
+  }
+
   /* Full-width containers */
   .timelineContentContainer {
     width: 100%;
@@ -3403,4 +3413,10 @@ body.is-touch .poptrox-popup .closer {
 .jumbotron > blockquote {
   padding: 0px 20px;
   margin-bottom: 0px;
+}
+
+@media screen and (max-width: 600px) {
+  .jumbotron {
+    margin-bottom: 3em;
+  }
 }
