@@ -2150,23 +2150,18 @@ input[type="radio"] + label:before {
   width: 100%;
 }
 
-#finanza-agevolata-image {
+.image.sectionHeaderImage {
   width: 50%;
   margin-bottom: 1em;
   margin-left: 25%;
 }
 
 @media screen and (max-width: 600px) {
-  #finanza-agevolata-image {
+  .image.sectionHeaderImage {
     width: 90%;
     margin-bottom: 1em;
     margin-left: 5%;
   }
-}
-
-#industry-4-image {
-  width: 100%;
-  margin-bottom: 1.5em;
 }
 
 /* List */
